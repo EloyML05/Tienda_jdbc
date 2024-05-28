@@ -688,5 +688,15 @@ public class Tienda_jdbc {
 				}
 			}
 		});
+		btnLimpiarTien.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				limpiarTienda();
+			}
+		});
+		btnLimpiarmucho.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				limpiarmuchos();
+			}
+		});
 	}
 }
